@@ -301,12 +301,12 @@ $(function(){
               </i>
               <span class="lot-text">重庆时时彩</span></a>
           </li>
-          <li class="nav-li lot9" data-sort="3">
+<!--           <li class="nav-li lot9" data-sort="3">
             <a id="hot_main-item-9" class="nav-btn cur-btn" data-argsid="9" title="北京PK拾" onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾')">
               <i>
               </i>
               <span class="lot-text">北京PK拾</span></a>
-          </li>
+          </li> -->
           <li class="nav-li lot42" data-sort="4">
             <a id="hot_main-item-42" class="nav-btn cur-btn" data-argsid="42" title="腾讯分分彩" onclick="__openWin('lottery_hall','/index.php/index/game/5/腾讯分分彩')">
               <i>
@@ -314,7 +314,7 @@ $(function(){
               <span class="lot-text">腾讯分分彩</span></a>
           </li>
           
-          <li class="nav-li lot18" data-sort="6">
+         <!--  <li class="nav-li lot18" data-sort="6">
             <a id="hot_main-item-18" class="nav-btn cur-btn" data-argsid="18" title="香港⑥合彩" onclick="__openWin('lottery_hall','/index.php/index/game/34/香港⑥合彩')">
               <i>
               </i>
@@ -467,13 +467,13 @@ $(function(){
                   <span class="lot-text">广东11选5</span></a>
               </li>
             </ul>
-          </li>
+          </li> -->
          
            
            
         </ul>
       </div>
-      <div id="low_lottery" class="live-nav" style="top: 0px;">
+<!--       <div id="low_lottery" class="live-nav" style="top: 0px;">
         <div class="main-top">
           <i class="icon-attr-down icon-attr-up"></i>
           <a>
@@ -500,7 +500,7 @@ $(function(){
               <span class="lot-text">排列三</span></a>
           </li>
         </ul>
-      </div>
+      </div> -->
  
 
 </div>
@@ -517,7 +517,7 @@ $(function(){
                     <div class="bull" id="sys_tip_outer">
                     	<span class="icon-acc"></span>
                     	<!-- 这里是跑马灯<marquee>标签，由js加入dom  -->
-                	<marquee id="sys_tip" behavior="scroll"><?=$this->settings['webGG']?></marquee></div>
+                </div>
                     <div id="header_user" class="header-user" >
                         <div class="user-name">账号：<span id="user_name" name="user_name"><?=$this->user['username']?></span></div>
 						<div class="user-money" >余额：<span id="balance">￥</span><div class="money-btn"><button class="recharge" onclick="__openWin('user_center','/index.php/cash/recharge2')">充值</button><button class="withdraw" onclick="topay1();">提现</button><button class="withdraw" onclick="loginout();" style="display:none;">退出</button></div></div>
@@ -545,9 +545,9 @@ $(function(){
 
                         </div>
                         <div class="download">
-                            <a class="icon-appleinc" onclick="__openWin('home_phone',_static_const.download_Iphone)"></a>
-                            <a class="icon-android" onclick="__openWin('home_phone',_static_const.download_Android)"></a>
-                            <span class="down-text" onclick="__openWin('home_phone',_static_const.download_Iphone)">手机APP下载</span>
+                            <!-- <a class="icon-appleinc" onclick="__openWin('home_phone',_static_const.download_Iphone)"></a> -->
+                            <!-- <a class="icon-android" onclick="__openWin('home_phone',_static_const.download_Android)"></a> -->
+                            <!-- <span class="down-text" onclick="__openWin('home_phone',_static_const.download_Iphone)">手机APP下载</span> -->
                         </div>
                     </div>
                 </div>

@@ -421,4 +421,5 @@
     	};
     	getUserInfo(getUserInfoCb);
     </script>
-</div
+</div>
+</div>

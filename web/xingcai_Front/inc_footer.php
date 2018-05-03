@@ -356,45 +356,7 @@ $(document).ready(function(){
 				</a>
 			</div>
 		</div>
-		<div class="same_box phone_box">
-			<div class="btn-wrapper" style="margin-left: 0;margin-right: 20px;">
-    		<!--	<p>下载地址：</p>-->
-	    		<a  class="icon-Android" target="_blank">
-	    			Android
-	    		</a>
-	    		<a style=" display:none;" href="javascript:void(0)" onclick="jjtc();" class="icon-iPhone" target="_blank">
-	    			iPhone
-	    		</a>
-    		</div>
-			 <div class="left download" >
-	    		<h3 style="text-align: center;">Android客户端</h3>
-	    		<div class="img">
-	    			<img src="<?=$this->settings['androidCode']?>" />
-	    		</div>
-	    		
-    		</div>
-    		
-    		
-		</div>
-		<div class="same_box pt_box" >
-			<div class="left download">
-			    <h3>IOS客户端</h3>
-			     <div class="img">
-			    	<img src="<?=$this->settings['ioscode']?>" />
-			    </div>
-			   <!-- <p>下载地址：</p>-->
-			   
-		    </div>
-		    <div class="btn-wrapper">
-		    	 <a   class="icon-iPhone" target="_blank">
-			    	Android
-			    </a>
-			    <a style=" display:none;" href="javascript:void(0)" onclick="jjtc();" class="icon-PC" target="_blank">
-			    	PC端下载
-			    </a>
-		    </div>
-		   
-		</div>
+
 	</div>
 </div>
 <div class="login_footer" style=" display:none;">

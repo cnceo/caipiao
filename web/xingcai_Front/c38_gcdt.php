@@ -74,7 +74,7 @@
           </div>
          </div>
         </div>
-        <div class="showhide-38 ele-live-layout" id="lot20" data-id="9" data-issue="631044" data-time="52" data-opentime="undefined" data-opennum="03|10|04|06|02|05|07|08|01|09" data-lasttimer="1501148138500">
+<!--         <div class="showhide-38 ele-live-layout" id="lot20" data-id="9" data-issue="631044" data-time="52" data-opentime="undefined" data-opennum="03|10|04|06|02|05|07|08|01|09" data-lasttimer="1501148138500">
          <div class="lot-wrap">
           <div class="lott-top">
            <div class="lott-name">
@@ -106,7 +106,7 @@
            <a class="lot-btn" onclick="__location('')">立即投注</a>
           </div>
          </div>
-        </div>
+        </div> -->
         <div class="showhide-38 ele-live-layout" id="lot5" data-id="5" data-issue="836473" data-time="232" data-opentime="undefined" data-opennum="5|8|0|13" data-lasttimer="1501148138500">
          <div class="lot-wrap">
           <div class="lott-top">
@@ -151,7 +151,7 @@
           </div>
          </div>
         </div>
-       <div class="showhide-38 ele-live-layout" id="lot77" data-id="77" data-issue="2017087" data-time="13942" data-opentime="undefined" data-opennum="08|33|15|47|37|09|01" data-lasttimer="1501148138500">
+      <!--  <div class="showhide-38 ele-live-layout" id="lot77" data-id="77" data-issue="2017087" data-time="13942" data-opentime="undefined" data-opennum="08|33|15|47|37|09|01" data-lasttimer="1501148138500">
          <div class="lot-wrap">
           <div class="lott-top">
            <div class="lott-name">
@@ -690,7 +690,7 @@
            <a class="lot-btn" onclick="__location('')">立即投注</a>
           </div>
          </div>
-        </div>
+        </div> -->
         
        </div> 
       </div> 
