@@ -1,0 +1,46 @@
+<?php 
+$api = 'http://api.kaijiangtong.com/lottery/?name=ffcqq&format=json&uid=860118&token=b49961e16839a44e71a503862f49768499f43a6f';
+
+$ch = curl_init();  
+$timeout = 5;  
+curl_setopt ($ch, CURLOPT_URL, $api);  
+curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);  
+curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout);  
+$file_contents = curl_exec($ch);  
+curl_close($ch); 
+$data1 = json_decode( $file_contents , true );
+//$data1 =$data['list'][0];
+//$data=[];
+$i=0;
+if(!empty($data1)){
+	foreach ($data1 as $key => $value) {
+	 $data[$i]['qihao']=$key;
+	 $data[$i]['num']=$value['number'];
+	 $data[$i]['dateline']=$value['dateline'];
+	 $i++;
+    }
+}
+//$limit=strlen($ct)-4;
+
+//$ct=substr($ct,0,$limit).'-'.substr($ct,$limit,$limit+3);
+
+//echo '<xml>
+//<row expect="'.$ct.'" opencode="'.$cr.'" opentime="'.str_replace('/','-',$cd).'"/>
+//</xml>';
+//var_dump($data[0]);
+
+// exit;
+// $ct = $data1['fpreviousperiod'];
+
+// $cd = $data1['date'];
+
+// $cr = $data1['fpreviousresult'];
+$ct=$data[0]['qihao'];
+ //$h3=substr($data[0]['qihao'], -2);
+
+$limit=strlen($ct)-4;
+
+$ct=substr($ct,0,$limit).'-'.substr($ct,$limit,$limit+3);
+echo '<xml>
+<row expect="'.$ct.'" opencode="'.$data[0]['num'].'" opentime="'.$data[0]['dateline'].'">
+</xml>';
