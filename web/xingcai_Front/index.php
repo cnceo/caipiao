@@ -215,7 +215,7 @@
 					<div class="top_dr_zc">
                         <a class="top_qdr" onclick="__openWin('login','/index.php/user/login?is_login=1')">请登录</a>
                         |
-                        <a class="top_ljdr" onclick="__openWin('login','/index.php/user/login')">立即注册</a>
+                        <!-- <a class="top_ljdr" onclick="__openWin('login','/index.php/user/login')">立即注册</a> -->
                     </div>
 					<div class="header-right fr">
 						<ul class="header-top-center fl">
@@ -235,7 +235,7 @@
 							
 							<li><a class="right-border" href="/index.php/index/help?page=default">玩法</a></li>
 							
-							<li><a target="_self" onclick="zxkf();">在线客服</a></li>
+							<!-- <li><a target="_self" onclick="zxkf();">在线客服</a></li> -->
 						</ul>
 					</div>
 					
@@ -267,7 +267,7 @@
 										</div>
 										<div style="float: left;margin-top: 1px">
 											<input style="margin-right: 14px;" class="dr_anniu" onclick="index_userLogin();" type="button" name="login" value="登录">
-											<input class="dr_anniu reg_anniu" type="button" onclick="__openWin('login','/index.php/user/login')" value="注册">
+											<!-- <input class="dr_anniu reg_anniu" type="button" onclick="__openWin('login','/index.php/user/login')" value="注册"> -->
 										</div>
 									</div>
 									<input type="hidden" name="ref_url" value="">
@@ -663,7 +663,7 @@
 						?>	   
 										</ul>
 										<ul class="user-help-box help-ul" id="cont_help_newer" style="display: none;">
-											<li><a href="/index.php/notice/view_new/118">如何注册成为福彩168会员？</a></li>
+											<li><a href="/index.php/notice/view_new/118">如何注册成为恒鑫？</a></li>
 											<li><a href="/index.php/notice/view_new/117">忘记登录密码了怎么办？</a></li>
 											<li><a href="/index.php/notice/view_new/116">在网站充值要手续费吗？</a></li>
 										</ul>

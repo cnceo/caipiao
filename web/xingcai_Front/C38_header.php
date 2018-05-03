@@ -5,7 +5,7 @@
 		<meta name="referrer" content="unsafe-url">
 		<meta name="renderer" content="webkit">
 		
-		<title>福彩168</title>
+		<title>恒鑫</title>
 		
 		<link type="text/css" rel="stylesheet" href="/files/_home.css">
 		<link type="text/css" rel="stylesheet" href="/files/_tip.css">
@@ -94,16 +94,16 @@
 		<div class="header-plus" id="header_plus">
 			<div class="header-toptray-plus">
 				<div class="quick-tpis">
-					<div>您好,欢迎来到福彩168!</div>
+					<div>您好,欢迎来到恒鑫!</div>
 					<div class="top_dr_zc">
                         <a class="top_qdr" onclick="__openWin('login','/index.php/user/login?is_login=1')">请登录</a>
                         |
-                        <a class="top_ljdr" onclick="__openWin('login','/index.php/user/login')">立即注册</a>
+                        <!-- <a class="top_ljdr" onclick="__openWin('login','/index.php/user/login')">立即注册</a> -->
                     </div>
 					<div class="header-right fr">
 						<ul class="header-top-center fl">
 							<li class="c-grey topscan">
-								<div class="header-gou"><i class="icon-iphone-icon"></i>手机购彩<span class="head-select"></span></div>
+								<!-- <div class="header-gou"><i class="icon-iphone-icon"></i>手机购彩<span class="head-select"></span></div> -->
 								<div class="scancode" hidden="">
 									<img src="/files/getIosPng.html" width="124px" height="124px">
 									<p>微信扫一扫</p>
@@ -117,7 +117,7 @@
 							
 							<li><a class="right-border" href="/index.php/index/help?page=default">玩法</a></li>
 							<li id="wdtg"><a class="right-border" onclick="__openWin('user_center','/index.php/safe/tuiguang')" href="javascript:void(0)">推荐好友获收益<img style="margin-left: 2px;margin-bottom: 10px;" src="/assets/statics/images/hot_new.gif"></a></li>
-							<li><a target="_self" onclick="zxkf();">在线客服</a></li>
+							<!-- <li><a target="_self" onclick="zxkf();">在线客服</a></li> -->
 						</ul>
 					</div>
 					

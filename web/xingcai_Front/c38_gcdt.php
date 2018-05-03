@@ -470,8 +470,8 @@
               </div>
              </div>
             </div>
-           </div>
-           <div class="lot-fore">
+           </div
+>           <div class="lot-fore">
             <span class="fl">上期开奖</span>
             <div class="show-gd1">
              <ul class="big_ball">

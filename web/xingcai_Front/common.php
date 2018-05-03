@@ -540,7 +540,7 @@ $(function(){
                                 </div>
                             </div>
                             <input class="lottery_anniu" type="button" name="login" onclick="userLogin_t()" value="登录">
-                            <input class="lottery_anniu" type="button" onclick="opRegDIV()" value="注册">
+                            <!-- <input class="lottery_anniu" type="button" onclick="opRegDIV()" value="注册"> -->
                             
 
                         </div>
