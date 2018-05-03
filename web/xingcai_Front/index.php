@@ -5,7 +5,7 @@
 		<meta name="referrer" content="unsafe-url">
 		<meta name="renderer" content="webkit">
 		
-		<title>福彩168</title>
+		<title>恒鑫</title>
 		<!--<link type="image/x-icon" rel="shortcut icon" href="http://www.cy16cp.com/fhcp/statics/images/favicon.ico?20170114" media="screen"/>-->
 		<link type="text/css" rel="stylesheet" href="./files/_home.css">
 		<link type="text/css" rel="stylesheet" href="./files/_tip.css">
@@ -197,7 +197,7 @@
 		</style>
 	</head>
 	<body>
-		<div class="_notice">
+<!-- 		<div class="_notice">
 		<div class="_notice-wrapper">
 			<div class="title">平台公告<span class="close">×</span></div>
 			<div class="_notice-content">
@@ -207,11 +207,11 @@
 				<div class="_notice-context"></div>
 			</div>
 		</div>
-    </div>
+	</div> -->
 		<div class="header-plus" id="header_plus">
 			<div class="header-toptray-plus">
 				<div class="quick-tpis">
-					<div>您好,欢迎来到福彩168!</div>
+					<div>您好,欢迎来到恒鑫!</div>
 					<div class="top_dr_zc">
                         <a class="top_qdr" onclick="__openWin('login','/index.php/user/login?is_login=1')">请登录</a>
                         |
@@ -220,7 +220,7 @@
 					<div class="header-right fr">
 						<ul class="header-top-center fl">
 							<li class="c-grey topscan">
-								<div class="header-gou"><i class="icon-iphone-icon"></i>手机购彩<span class="head-select"></span></div>
+								<!-- <div class="header-gou"><i class="icon-iphone-icon"></i>手机购彩<span class="head-select"></span></div> -->
 								<div class="scancode" hidden="">
 									<img src="<?= $this->settings['ioscode'] ?>" width="124px" height="124px">
 									<p>微信扫一扫</p>
@@ -314,7 +314,7 @@
           <p onclick="__openWin('lottery_hall','/index.php/index/game/1/2/12/重庆时时彩');" target="_blank" class="status-desc">最火爆的快彩</p></a>
       </div>
     </li>
-    <li class="mainGame">
+<!--     <li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');" class="mainA">
         <i class="icon nav40-9">
           <img src="./files/9.png"></i>
@@ -326,8 +326,8 @@
             <span class="normal-desc">彩友中200注</span></p>
         </a>
       </div>
-    </li>
-	<li class="mainGame">
+    </li> -->
+<!-- 	<li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/86/香港三分彩');" class="mainA">
         <i class="icon nav40-9">
           <img src="./files/3fssc.png"></i>
@@ -340,7 +340,7 @@
           </p>
         </a>
       </div>
-    </li>
+    </li> -->
     <li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/5/腾讯分分彩');" class="mainA">
         <i class="icon nav40-9">
@@ -355,7 +355,7 @@
         </a>
       </div>
     </li>
-     <li class="mainGame">
+<!--      <li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/80/104/339/幸运28');" class="mainA">
         <i class="icon nav40-9">
           <img src="./files/xy28.png"></i>
@@ -368,8 +368,8 @@
           </p>
         </a>
       </div>
-    </li>
-    <li class="mainGame">
+    </li> -->
+<!--     <li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/34/香港⑥合彩');" class="mainA">
         <i class="icon nav40-9">
           <img src="./files/18.png"></i>
@@ -379,7 +379,7 @@
           <span class="color333">香港⑥合彩</span>
           <p onclick="__openWin('lottery_hall','/index.php/index/game/34/香港⑥合彩');" target="_blank" class="status-desc">每周开奖三期</p></a>
       </div>
-    </li>
+    </li> -->
     <li class="allGames clearfix" data-type="1">
       <h3>
         <i class="icon-ALARM"></i>
@@ -387,16 +387,16 @@
       <ul class="clearfix game-list">
        <li>
           <a onclick="__openWin('lottery_hall','/index.php/index/game/1/2/12/重庆时时彩');">重庆时时彩</a></li>
-        <li>
-          <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');">北京PK拾</a></li>
+ <!--        <li>
+          <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');">北京PK拾</a></li> -->
           <li>
                 <a onclick="__openWin('lottery_hall','/index.php/index/game/5/腾讯分分彩');">腾讯分分彩</a></li>
-        <li>
+<!--         <li>
                 <a onclick="__openWin('lottery_hall','/index.php/index/game/60/2/12/天津时时彩');">天津时时彩</a></li>
 				 <li>
                 <a onclick="__openWin('lottery_hall','/index.php/index/game/86/2/12/香港三分彩');">香港三分彩</a></li>
                 <li>
-                <a onclick="__openWin('lottery_hall','/index.php/index/game/77/⑥合彩');">高速⑥合彩</a></li>
+                <a onclick="__openWin('lottery_hall','/index.php/index/game/77/⑥合彩');">高速⑥合彩</a></li> -->
         
       </ul>
       <i class="icon" id="open-btn-1" style="display: block;"></i>
@@ -409,11 +409,11 @@
              
               <li>
                 <a onclick="__openWin('lottery_hall','/index.php/index/game/1/2/12/重庆时时彩');">重庆时时彩</a></li>
-              <li>
-                <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');">北京PK拾</a></li>
+  <!--             <li>
+                <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');">北京PK拾</a></li> -->
                  <li>
                 <a onclick="__openWin('lottery_hall','/index.php/index/game/5/腾讯分分彩');">腾讯分分彩</a></li>
-              <li>
+             <!--  <li>
                 <a onclick="__openWin('lottery_hall','/index.php/index/game/14/2/12/澳门五分彩');">澳门五分彩</a></li>
               
               <li>
@@ -439,13 +439,13 @@
               
              
               <li>
-                <a onclick="__openWin('lottery_hall','/index.php/index/game/81/39/安徽快三');">安徽快三</a></li>
+                <a onclick="__openWin('lottery_hall','/index.php/index/game/81/39/安徽快三');">安徽快三</a></li> -->
             </ol>
           </div>
         </div>
       </div>
     </li>
-    <li class="allGames" data-type="2">
+<!--     <li class="allGames" data-type="2">
       <h3>
         <i class="icon-TIME"></i>
         <span>低频彩</span></h3>
@@ -457,8 +457,8 @@
         <li>
           <a onclick="__openWin('lottery_hall','/index.php/index/game/10/排列3');">排列三</a></li>
       </ul>
-    </li>
-    <li class="allGames clearfix" data-type="3">
+    </li> -->
+<!--     <li class="allGames clearfix" data-type="3">
       <h3>
         <i class="icon-billiard-ball"></i>
         <span>全部</span></h3>
@@ -531,7 +531,7 @@
           </div>
         </div>
       </div>
-    </li>
+    </li> -->
   </ul>
 </div>
 </div>
@@ -540,7 +540,7 @@
 							<li  class="on"><a href="/">首页</a></li>
 							<li><a onclick="__openWin('lottery_hall','/index.php/index/hall/');" target="_blank">购彩大厅</a></li>
 				<!-- 			<li><a href="/index.php/index/help?page=phone"><i class="icon-iphone-icon"></i>&nbsp;手机购彩</a><em style="z-index: 9;right: -11px;" class="hot-icon"></em></li> -->
-							<li><a href="/index.php/index/help?page=huodong">优惠活动</a><em class="hot-icon"></em></li>
+							<!-- <li><a href="/index.php/index/help?page=huodong">优惠活动</a><em class="hot-icon"></em></li> -->
 							<li><a onclick="__openWin('user_center','/zst/index.php?typeid=1');" class="dropdown-desc">走势图表</a></li>
 							<li><a href="/index.php/index/help?page=kjgg">开奖公告</a></li>
 						</ul>
@@ -549,31 +549,7 @@
 				<div class="article-center">
 						<!--二维码 -->
 					<div class="right-info">
-	                    <div class="health-tab">
-	                        <ul class="mobile-tab">
-	                            <li class="tab-mobile" data-val="1"><a onclick=""><i class="icon-appleinc"></i>iOS版</a></li>
-	                            <li class="tab-mobile on" data-val="2"><a onclick=""><i class="icon-android"></i>Android版</a></li>
-	                        </ul>
-	                    </div>
-	                    <div style="clear: both;">
-	                        <div class="mobile-main">
-	                            <div class="" id="tab-mobileapp-1" style="display: none;">
-	                                <div class="iosqr">
-	                                    <p>适用于IOS6.0及以上平台</p>
-	                                    <img style="width:125px;" src="<?=$this->settings['ioscode']?>">
-	                                    <p>扫一扫二维码下载Iphone版</p>
-	                                </div> 
-	                            </div>
-		                                            
-		                        <div class="" id="tab-mobileapp-2">
-		                            <div class="androidqr">
-		                                <p>适用于Android及以上平台</p>
-		                                <img style="width:125px;" src="<?=$this->settings['androidCode']?>">
-		                                <p>扫一扫二维码下载Android版</p>
-		                            </div>
-		                        </div>
-	                        </div>            
-	                    </div>
+	         
 	                </div>
 					<!-- 轮播图 -->
 					<div class="slide">
@@ -581,15 +557,15 @@
 							<div class="slides_container">
 								<div class="slides_container banner has-dots" id="b04" style="overflow: hidden; width: 522px; height: 248px;">
 									<ul style="width: 400%; position: relative;  height: 248px; overflow: hidden;">
-                                        <li class="show_picture" id="show_pic_0" style="width: 25%;">
+<!--                                         <li class="show_picture" id="show_pic_0" style="width: 25%;">
                                             <img src="./files/1.jpg" class="sliderimg" width="522px" height="248px">
-                                        </li>
+                                        </li> -->
                                         <li class="show_picture" id="show_pic_1" style="width: 25%;">
                                             <img src="./files/2.jpg" class="sliderimg" width="522px" height="248px">
                                         </li>
-                                        <li class="show_picture" id="show_pic_2" style="width: 25%;">
+<!--                                         <li class="show_picture" id="show_pic_2" style="width: 25%;">
                                             <img src="./files/3.jpg" class="sliderimg" width="522px" height="248px">
-                                        </li>
+                                        </li> -->
                                         <li class="show_picture" id="show_pic_3" style="width: 25%;">
                                             <img src="./files/4.jpg" class="sliderimg" width="522px" height="248px">
                                         </li>
@@ -608,16 +584,18 @@
 				<div class="wrap-bg">
 					<div class="wrapper">
 						<div class="submain">
-							<div class="submain-tip" id="sys_tip_outer">
-								<i class="icon-acc"></i>
-								<!-- 这里是跑马灯<marquee>标签，由js加入dom  -->
-							<marquee id="sys_tip" behavior="scroll"><?=$this->settings['webGG']?></marquee></div>
 							<div class="home-wrapper">
+								 <div class="submain-tip" id="sys_tip_outer">
+								 	<i class="icon-acc"></i>
+								 	<!-- 这里是跑马灯<marquee>标签，由js加入dom  -->
+								 		<!-- <marquee id="sys_tip" behavior="scroll"><?=$this->settings['webGG']?></marquee> -->
+								 	</div>
 								<div class="quick-buy-box">
 								
 								<!-- 快速投注_时时彩 -->
 									<div  name="content" class="qb qb-box-list" id="_index_countdownIssue">
-										<ul name="quick_tab_list" class="quick-tab-list"><li class="tab-sel-open on" data-gameid="5" name="gameid_5"><a>重庆时时彩</a></li><li class="tab-sel-open" data-gameid="1" name="gameid_1"><a>福彩3D</a></li><li class="tab-sel-open" data-gameid="9" name="gameid_9"><a>北京PK拾</a></li><li class="tab-sel-open" data-gameid="2" name="gameid_2"><a>排列三</a></li><li class="tab-sel-open" data-gameid="12" name="gameid_12"><a>山东11选5</a></li></ul>
+										<ul name="quick_tab_list" class="quick-tab-list"><li class="tab-sel-open on" data-gameid="5" name="gameid_5"><a>重庆时时彩</a></li>
+											<!-- <li class="tab-sel-open" data-gameid="1" name="gameid_1"><a>福彩3D</a></li><li class="tab-sel-open" data-gameid="9" name="gameid_9"><a>北京PK拾</a></li><li class="tab-sel-open" data-gameid="2" name="gameid_2"><a>排列三</a></li><li class="tab-sel-open" data-gameid="12" name="gameid_12"><a>山东11选5</a></li> --></ul>
 										<ul class="qb-info clearfix">
 											<li>
 											<span style="font-size: 18px"><span name="issue">随机一注</span></span>
@@ -787,7 +765,7 @@
 									<div class="title-top">
 										<ul class="notice-tab">
 											<li class="tab-sel on" data-val="1"><a onclick="">高频开奖</a></li>
-											<li class="tab-sel" data-val="2"><a onclick="">低频开奖</a></li>
+											<!-- <li class="tab-sel" data-val="2"><a onclick="">低频开奖</a></li> -->
 											<!-- <li class="tab-more"><a onclick="__openWin('home2','/draw/index.html')">更多</a></li> -->
 										</ul>
 									</div>
@@ -874,35 +852,13 @@
                         <li><a href="/index.php/index/help?page=detail#help-16">提款不成功怎么办</a></li>
                     </ul>
                 </div>
-                <div class="cn-list service">
-                    <h3>&nbsp;&nbsp;APP下载</h3>
-                    
-                    <div class="app-down">
-                        
-                        <div class="down-img" id="img-apple1">
-                            <img src="<?=$this->settings['ioscode']?>">
-                        </div>
-                        <div class="down-img" id="img-andoid1" style="display: none">
-                            <img src="<?=$this->settings['androidCode']?>">     
-                        </div>
-                        <div class="down-txt">
-                            <!-- <a class="down-apple1">Iphone版</a>
-                            <a class="down-andoid1">Android版</a> -->
-                            <p class="phine_ban_p" id="ba-apple1">Iphone版</p>
-                            <p class="phine_ban_p" id="ba-andoid1" style="display: none;">Android版</p>
-                            <p>手机投注 随时随地</p>
-                            <a class="down-apple1 down_now"><i class="icon-appleinc"></i></a>
-                            <a class="down-andoid1"><i class="icon-android"></i></a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
     <div class="foot_box">
         <div class="about_box">
-            <p>2009-2017©<span>福彩168 | </span> 客服邮箱福彩168cai688@vip.qq.com<!-- 客服QQ：201716002 | 流量统计 -->
-            <br><span class="c-grey">福彩168郑重提示：彩票有风险，投注需谨慎！ 不向未满18周岁的青少年出售彩票</span></p>
+            <p>2009-2017©<span>恒鑫 | </span> <!-- 客服邮箱福彩168cai688@vip.qq.com --><!-- 客服QQ：201716002 | 流量统计 -->
+            <br><span class="c-grey">恒鑫郑重提示：彩票有风险，投注需谨慎！ 不向未满18周岁的青少年出售彩票</span></p>
             <ul class="foot_info">
                 <li class="foot_wljc"></li>
                 <li class="foot_wangan"></li>
@@ -941,20 +897,8 @@
 </div>
 <div class="ie-alert-bg" style="display: none;"></div>
 <!-- start :  浮动图标  -->
-<!-- <div  id="_leftAD" class="_float_AD l_AD hide" ">
-    <img src="<?=$this->settings['leftimg']?>">
-    <div name="close_btn"></div>
-	<a class="top1_btn" href="tencent://message/?uin=<?=$this->settings['qqkefuGG']?>&amp;Site=%E5%BD%A916&amp;Menu=yes"></a>
-    <a class="top2_btn" href="tencent://message/?uin=<?=$this->settings['qqkefuGG']?>&amp;Site=%E5%BD%A916&amp;Menu=yes"></a>
-    <div class="two_img" style="display: none;"><img src="./files/getIosPng.html"></div>
-</div> -->
-<!-- <div id="_rightAD" class="_float_AD r_AD " >
-    <img src="<?=$this->settings['rightimg']?>">
-    <div name="close_btn"></div>
-    <div class="top1_btn" onclick="zxkf();"></div>
-    <div class="top2_btn" onclick="__openWin('user_center','/index.php/safe/tuiguang')"></div>
-    <div class="two_img" style="display: none;"><img src="./files/getAndroidPng.html"></div>
-</div> -->
+
+
 <script type="text/javascript">
 
 </script>
@@ -1307,4 +1251,10 @@ if(yishownotice == 1){
 }else{
     $('._notice').show();
 }
-</script
+</script>
+
+
+
+
+
+</body></html>
