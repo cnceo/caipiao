@@ -82,7 +82,8 @@
         <div class="wrapper">
             <div class="reg" id="login" style="display:none;">
                 <div class="reg-tit">
-                    <div class="fr">没有账号？<a class="orange" onClick="zc()">立即注册</a></div><h3>用户登录</h3>
+                    <!-- <div class="fr">没有账号？<a class="orange" onClick="zc()">立即注册</a></div> -->
+                    <h3>用户登录</h3>
                 </div>
                 <div class="reg-info" id="_form_login">
                     <ul>
@@ -116,7 +117,8 @@
             </div>
 			<div class="reg" id="userreg">
             <div class="reg-tit">
-                <div class="fr">已有账号？<a class="orange"  onclick="dl()">立即登录</a></div><h3>用户注册</h3>
+                <div class="fr">已有账号？<a class="orange"  onclick="dl()">立即登录</a></div>
+                <!-- <h3>用户注册</h3> -->
             </div>
             <div class="reg-info" id="reg_form_1">
                 <ul>
@@ -207,34 +209,14 @@
                     </ul>
                 </div>
                 <div class="cn-list service">
-                    <h3>&nbsp;&nbsp;APP下载</h3>
-                    
-                    <div class="app-down">
-                        
-                        <div class="down-img" id="img-apple1">
-                            <img src="/files/getIosPng.html">
-                        </div>
-                        <div class="down-img" id="img-andoid1" style="display: none">
-                            <img src="/files/getAndroidPng.html">     
-                        </div>
-                        <div class="down-txt">
-                            <!-- <a class="down-apple1">Iphone版</a>
-                            <a class="down-andoid1">Android版</a> -->
-                            <p class="phine_ban_p" id="ba-apple1">Iphone版</p>
-                            <p class="phine_ban_p" id="ba-andoid1" style="display: none;">Android版</p>
-                            <p>手机投注 随时随地</p>
-                            <a class="down-apple1 down_now"><i class="icon-appleinc"></i></a>
-                            <a class="down-andoid1"><i class="icon-android"></i></a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="foot_box">
         <div class="about_box">
-            <p>2009-2017©<span>福彩168 | </span> <!-- 客服QQ：201716002 | 流量统计 -->
-            <br><span class="c-grey">福彩168郑重提示：彩票有风险，投注需谨慎！ 不向未满18周岁的青少年出售彩票</span></p>
+            <p>2009-2017©<span>恒鑫 | </span> <!-- 客服QQ：201716002 | 流量统计 -->
+            <br><span class="c-grey">恒鑫郑重提示：彩票有风险，投注需谨慎！ 不向未满18周岁的青少年出售彩票</span></p>
             <ul class="foot_info">
                 <li class="foot_wljc"></li>
                 <li class="foot_wangan"></li>
@@ -273,20 +255,7 @@
 </div>
 <div class="ie-alert-bg" style="display: none;"></div>
 <!-- start :  浮动图标  -->
-<div id="_leftAD" class="_float_AD l_AD">
-    <img src="<?=$this->settings['leftimg']?>">
-    <div name="close_btn"></div>
-    <div class="top1_btn" onclick="__openWin(&#39;reg&#39;,&#39;/register/regPlay.html&#39;)"></div>
-    <a class="top2_btn" href="tencent://message/?uin=201716002&amp;Site=%E5%BD%A916&amp;Menu=yes"></a>
-    <div class="two_img" style="display: none;"><img src="<?=$this->settings['ioscode']?>"></div>
-</div>
-<div id="_rightAD" class="_float_AD r_AD">
-    <img src="<?=$this->settings['rightimg']?>">
-    <div name="close_btn"></div>
-    <div class="top1_btn" onclick="__openWin(&#39;other&#39;,&#39;https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=758639&amp;configID=3761&amp;jid=6834658649&amp;s=1&#39;)"></div>
-    <div class="top2_btn" onclick="__openWin(&#39;other&#39;,&#39;https://c16000.com&#39;)"></div>
-    <div class="two_img" style="display: none;"><img src="<?=$this->settings['androidCode']?>"></div>
-</div>
+
 <script type="text/javascript">
 /* function CULS(){
 	$.ajax({

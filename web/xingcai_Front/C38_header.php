@@ -184,7 +184,7 @@
 
 <div class="lotterys-list-hd" id="lotterysList" style="display:none">
   <ul class="lottery-list-box" id="lottery-list-box">
-    <li class="mainGame">
+    <!-- <li class="mainGame">
       <a onclick="" class="mainA">
         <i class="icon nav40-9">
           <img src="/files/51.png"></i>
@@ -195,7 +195,7 @@
           <p onclick="__openWin('lottery_hall','/index.php/index/game/86/2/12/香港三分彩');" target="_blank" class="status-desc"></p>
         </a>
       </div>
-    </li>
+    </li> -->
     <li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/1/2/12/重庆时时彩');" class="mainA">
         <i class="icon nav40-9">
@@ -208,6 +208,20 @@
       </div>
     </li>
     <li class="mainGame">
+      <a onclick="__openWin('lottery_hall','/index.php/index/game/5/腾讯分分彩');" class="mainA">
+        <i class="icon nav40-9">
+          <img src="/files/42.png"></i>
+      </a>
+      <div class="fl">
+        <a onclick="__openWin('lottery_hall','/index.php/index/game/5/腾讯分分彩');" class="mainA">
+          <span class="color333">腾讯分分彩</span>
+          <p>
+            <span class="normal-desc"></span>
+          </p>
+        </a>
+      </div>
+    </li>
+<!--     <li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');" class="mainA">
         <i class="icon nav40-9">
           <img src="/files/9.png"></i>
@@ -219,8 +233,8 @@
             <span class="normal-desc">彩友中200注</span></p>
         </a>
       </div>
-    </li>
-    <li class="mainGame">
+    </li> -->
+<!--     <li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/80/104/339/幸运28');" class="mainA">
         <i class="icon nav40-9">
           <img src="/files/42.png"></i>
@@ -247,8 +261,8 @@
           </p>
         </a>
       </div>
-    </li>
-    <li class="mainGame">
+    </li> -->
+<!--     <li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/34/香港⑥合彩');" class="mainA">
         <i class="icon nav40-9">
           <img src="/files/18.png"></i>
@@ -401,7 +415,7 @@
           </div>
         </div>
       </div>
-    </li>
+    </li> -->
   </ul>
 </div>
 </div>
@@ -410,7 +424,7 @@
         <li ><a  href="/">首页</a></li>
         <li><a onclick="__openWin('lottery_hall','/index.php/index/hall/');" target="_blank">购彩大厅</a></li>
  <!--        <li><a href="/index.php/index/help?page=phone" target="_blank"><i class="icon-iphone-icon"></i>&nbsp;手机购彩</a><em style="z-index: 9;right: -11px;" class="hot-icon"></em></li> -->
-        <li><a href="/index.php/index/help?page=huodong">优惠活动</a><em class="hot-icon"></em></li>
+        <!-- <li><a href="/index.php/index/help?page=huodong">优惠活动</a><em class="hot-icon"></em></li> -->
         <li><a onclick="__openWin('user_center','/zst/index.php?typeid=1');" class="dropdown-desc">走势图表</a></li>
         <li><a href="/index.php/index/help?page=kjgg">开奖公告</a></li>
     </ul>

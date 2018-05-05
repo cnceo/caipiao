@@ -594,7 +594,9 @@
 								
 								<!-- 快速投注_时时彩 -->
 									<div  name="content" class="qb qb-box-list" id="_index_countdownIssue">
-										<ul name="quick_tab_list" class="quick-tab-list"><li class="tab-sel-open on" data-gameid="5" name="gameid_5"><a>重庆时时彩</a></li>
+										<ul name="quick_tab_list" class="quick-tab-list">
+											<li class="tab-sel-open on" data-gameid="5" name="gameid_5"><a>重庆时时彩</a></li>
+											<li class="tab-sel-open" data-gameid="42" name="gameid_42"><a>腾讯分分彩</a></li>
 											<!-- <li class="tab-sel-open" data-gameid="1" name="gameid_1"><a>福彩3D</a></li><li class="tab-sel-open" data-gameid="9" name="gameid_9"><a>北京PK拾</a></li><li class="tab-sel-open" data-gameid="2" name="gameid_2"><a>排列三</a></li><li class="tab-sel-open" data-gameid="12" name="gameid_12"><a>山东11选5</a></li> --></ul>
 										<ul class="qb-info clearfix">
 											<li>

@@ -52,7 +52,7 @@ $toTime=$_GET['toTime'];
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:esun=""><head>
-<title>福彩168游戏平台  - 查看历史号码走势  </title>
+<title>恒鑫  - 查看历史号码走势  </title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="Pragma" content="no-cache">
 <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -540,15 +540,15 @@ layui.use('laydate', function(){
   	<dl>
 		<dt>时时彩</dt>
 		<dd><a href="/zst/index.php?typeid=1 ">重庆时时彩</a></dd>
-		<dd><a href="/zst/index.php?typeid=12">新疆时时彩</a></dd>
-		<dd><a href="/zst/index.php?typeid=60">天津时时彩</a></dd>
+<!-- 		<dd><a href="/zst/index.php?typeid=12">新疆时时彩</a></dd>
+		<dd><a href="/zst/index.php?typeid=60">天津时时彩</a></dd> -->
 		
 		<dd><a href="/zst/index.php?typeid=5">腾讯分分彩</a></dd>
 		
 		<!--<dd><a href="/zst/index.php?typeid=14">澳门五分彩</a></dd>
 		<dd><a href="/zst/index.php?typeid=5">河内1分彩</a></dd>-->
   	</dl>
-	<dl>
+<!-- 	<dl>
 		<dt>11选5</dt>
 		<dd><a href="/zst/11x5.php?typeid=7">山东11选5</a></dd>
 		<dd><a href="/zst/11x5.php?typeid=16">江西11选5</a></dd>
@@ -574,7 +574,7 @@ layui.use('laydate', function(){
         <dt>六合彩</dt>
         <dd><a href="/zst/lhc.php?typeid=34">六合彩</a></dd>
         <dd><a href="/zst/lhc.php?typeid=77">高速六合彩</a></dd>
-    </dl>
+    </dl> -->
 </div>
 </body>
 </html>

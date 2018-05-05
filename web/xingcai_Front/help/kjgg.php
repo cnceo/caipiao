@@ -30,7 +30,7 @@
                         </table>
                     </div>
 
-                    <div name="game_type_2" class="kj_box">
+ <!--                    <div name="game_type_2" class="kj_box">
                         <h1>快三</h1>
                         <table cellpadding="0" cellspacing="0" class="kj_tab">
                             <thead>
@@ -50,10 +50,10 @@
 
                             </tbody>
                         </table>
-                    </div>
+                    </div> -->
 
 
-                    <div name="game_type_3" class="kj_box">
+  <!--                   <div name="game_type_3" class="kj_box">
                         <h1>11选5</h1>
                         <table cellpadding="0" cellspacing="0" class="kj_tab">
                             <thead>
@@ -73,8 +73,8 @@
 
                             </tbody>
                         </table>
-                    </div>
-
+                    </div> -->
+<!-- 
                     <div name="game_type_5" class="kj_box">
                         <h1>低频彩</h1>
                         <table cellpadding="0" cellspacing="0" class="kj_tab">
@@ -95,7 +95,7 @@
 
                             </tbody>
                         </table>
-                    </div>
+                    </div> -->
 
                 </div>
                 <div class="div_iframe" name="iframe_div"></div>
@@ -105,7 +105,8 @@
 </div>
 <script>
 		 var arr_pcdd= [ "80", "83"]; //PCDD
-		 var arr_ssc= [ "86", "1","14","26","77","5","12","20",'60',"87" ]; //时时彩
+		 // var arr_ssc= [ "86", "1","14","26","77","5","12","20",'60',"87" ]; //时时彩
+		 var arr_ssc= [ "1", "5" ]; //时时彩
 		 var arr_k3= [ "79", "81","82"]; //快三
 		 var arr_11x5= [ "6", "7","15","16"]; //十一选五
 		 var arr_dp= [ "34", "9", "10" ]; //低频彩种ID
