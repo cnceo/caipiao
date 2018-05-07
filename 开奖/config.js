@@ -1547,73 +1547,73 @@ exports.cp=[
 	},	                                                                                                      	//
 		
 
-	{                                                                                                         	//
-		title:'河内2分彩',                                                                                    	//
-		source:'锦绣',                                                                                        	//
-		name:'lfc',                                                                                           	//
-		enable:true,                                                                                          	//
-		timer:'lfc',                                                                                          	//
-		option:{                                                                                              	//
-			host:"www.caipiao.com",                                                                                   	//
-			timeout:50000,                                                                                    	//
-			path: '/index.php/xingcai/xc2fc',                                                                 	//杏
-			headers:{                                                                                         	//彩
-				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                           	//系
-			}                                                                                                 	//统
-		},                                                                                                    	//彩
-		parse:function(str){                                                                                  	//
-			try{                                                                                              	//
-				str=str.substr(0,200);	                                                                      	//
-				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;            	//
-				var m;                                                                                        	//
-				if(m=str.match(reg)){                                                                         	//
-					return {                                                                                  	//
-						type:26,                                                                              	//
-						time:m[3],                                                                            	//
-						number:m[1],                                                                          	//
-						data:m[2]                                                                             	//
-					};                                                                                        	//
-				}					                                                                          	//
-			}catch(err){                                                                                      	//
-				throw('河内2分彩解析数据不正确');                                                             	//
-			}                                                                                                 	//
-		}                                                                                                     	//
-	},	                                                                                                      	//
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 	{                                                                                                         	//
+// 		title:'河内2分彩',                                                                                    	//
+// 		source:'锦绣',                                                                                        	//
+// 		name:'lfc',                                                                                           	//
+// 		enable:true,                                                                                          	//
+// 		timer:'lfc',                                                                                          	//
+// 		option:{                                                                                              	//
+// 			host:"www.caipiao.com",                                                                                   	//
+// 			timeout:50000,                                                                                    	//
+// 			path: '/index.php/xingcai/xc2fc',                                                                 	//杏
+// 			headers:{                                                                                         	//彩
+// 				"User-Agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0) "                           	//系
+// 			}                                                                                                 	//统
+// 		},                                                                                                    	//彩
+// 		parse:function(str){                                                                                  	//
+// 			try{                                                                                              	//
+// 				str=str.substr(0,200);	                                                                      	//
+// 				var reg=/<row expect="([\d\-]+?)" opencode="([\d\,]+?)" opentime="([\d\:\- ]+?)"/;            	//
+// 				var m;                                                                                        	//
+// 				if(m=str.match(reg)){                                                                         	//
+// 					return {                                                                                  	//
+// 						type:26,                                                                              	//
+// 						time:m[3],                                                                            	//
+// 						number:m[1],                                                                          	//
+// 						data:m[2]                                                                             	//
+// 					};                                                                                        	//
+// 				}					                                                                          	//
+// 			}catch(err){                                                                                      	//
+// 				throw('河内2分彩解析数据不正确');                                                             	//
+// 			}                                                                                                 	//
+// 		}                                                                                                     	//
+// 	},	                                                                                                      	//
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-{                                                                                                                                             //
-		title: '六合彩',                                                                                                                      //
-		source: '9800开奖网',                                                                                                                 //
-		name: 'hklhc',                                                                                                                        //
-		enable: true,                                                                                                                         //
-		timer: 'hklhc',                                                                                                                       //
-		stype: 34,                                                                                                                            //
-		option: {                                                                                                                             //
-			host: "www.9800.com.tw",                                                                                                          //
-			timeout: 50000,                                                                                                                   //香
-			path: '/html/a6/',                                                                                                                //港
-			hhost: "www.9800.com.tw",                                                                                                         //六
-			npath: '/html/a6/',                                                                                                               //合
-			headers: {                                                                                                                        //彩
-				"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/22.0.1271.64 Safari/537.11"      //
-			}                                                                                                                                 //
-		},                                                                                                                                    //
-		parse: function(str) {                                                                                                                //
-			try {                                                                                                                             //
-				return getFrom9800(str, 34);                                                                                                  //
-			} catch (err) {}                                                                                                                  //
-		},                                                                                                                                    //
-		reparse: function(bet) {                                                                                                              //
-			try {                                                                                                                             //
-				log(bet.actionNo);                                                                                                            //
-				return reparseFrom9800(bet, 34);                                                                                              //
-			} catch (err) {                                                                                                                   //
-                                                                                                                                              //
-			}                                                                                                                                 //
-                                                                                                                                              //
-		},                                                                                                                                    //
-	}                                                                                                                                         //
+// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// {                                                                                                                                             //
+// 		title: '六合彩',                                                                                                                      //
+// 		source: '9800开奖网',                                                                                                                 //
+// 		name: 'hklhc',                                                                                                                        //
+// 		enable: true,                                                                                                                         //
+// 		timer: 'hklhc',                                                                                                                       //
+// 		stype: 34,                                                                                                                            //
+// 		option: {                                                                                                                             //
+// 			host: "www.9800.com.tw",                                                                                                          //
+// 			timeout: 50000,                                                                                                                   //香
+// 			path: '/html/a6/',                                                                                                                //港
+// 			hhost: "www.9800.com.tw",                                                                                                         //六
+// 			npath: '/html/a6/',                                                                                                               //合
+// 			headers: {                                                                                                                        //彩
+// 				"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/22.0.1271.64 Safari/537.11"      //
+// 			}                                                                                                                                 //
+// 		},                                                                                                                                    //
+// 		parse: function(str) {                                                                                                                //
+// 			try {                                                                                                                             //
+// 				return getFrom9800(str, 34);                                                                                                  //
+// 			} catch (err) {}                                                                                                                  //
+// 		},                                                                                                                                    //
+// 		reparse: function(bet) {                                                                                                              //
+// 			try {                                                                                                                             //
+// 				log(bet.actionNo);                                                                                                            //
+// 				return reparseFrom9800(bet, 34);                                                                                              //
+// 			} catch (err) {                                                                                                                   //
+//                                                                                                                                               //
+// 			}                                                                                                                                 //
+//                                                                                                                                               //
+// 		},                                                                                                                                    //
+// 	}                                                                                                                                         //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ];                                                                                                              
 

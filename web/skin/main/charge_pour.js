@@ -23,9 +23,13 @@ function gameListData_charge_index(gameId) {
             i1 = GetRandomNum(0,9);
             i2 = GetRandomNum(0,9);
             i3 = GetRandomNum(0,9);
+            i4 = GetRandomNum(0,9);
+            i5 = GetRandomNum(0,9);
             $(num_list.children('li').eq(0)).find('input').val(i1);
             $(num_list.children('li').eq(1)).find('input').val(i2);
             $(num_list.children('li').eq(2)).find('input').val(i3);
+            $(num_list.children('li').eq(3)).find('input').val(i4);
+            $(num_list.children('li').eq(4)).find('input').val(i5);
             break;
         case '1'://福彩3D
             i1 = GetRandomNum(0,9);
@@ -117,7 +121,9 @@ function rightNow() {
             i1 = $(num_list.children('li').eq(0)).find('input').val();
             i2 = $(num_list.children('li').eq(1)).find('input').val();
             i3 = $(num_list.children('li').eq(2)).find('input').val();
-            __openWin('lottery_hall','/index.php/index/game/5?bet='+i1+'|'+i2+'|'+i3+'&dc='+times_nums+'&my='+bet_amount+'&gdid='+gameId);
+            i4 = $(num_list.children('li').eq(3)).find('input').val();
+            i5 = $(num_list.children('li').eq(4)).find('input').val();
+            __openWin('lottery_hall','/index.php/index/game/5?bet='+i1+'|'+i2+'|'+i3+'|'+i4+'|'+i5+'&dc='+times_nums+'&my='+bet_amount+'&gdid='+gameId);
             break;
     }
 }

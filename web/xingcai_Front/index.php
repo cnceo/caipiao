@@ -618,7 +618,14 @@
 										</ul>
 										<div class="qb-selectnumber">
 											<i class="sprite sprite-sscd"></i>
-											<ul name="num_list" class="qb-selectnum clearfix qb_dlt_select"><img class="bett-icon" src="./files/5.png"><li class="qb-red lot_sn_red"><input value="9" readonly=""></li><li class="qb-red lot_sn_red"><input value="5" readonly=""></li><li class="qb-red lot_sn_red"><input value="4" readonly=""></li><li class="qb-red lot_sn_red"><input value="8" readonly=""></li><li class="qb-red lot_sn_red"><input value="7" readonly=""></li></ul>
+											<ul name="num_list" class="qb-selectnum clearfix qb_dlt_select">
+												<img class="bett-icon" src="./files/5.png">
+												<li class="qb-red lot_sn_red"><input value="9" readonly=""></li>
+												<li class="qb-red lot_sn_red"><input value="5" readonly=""></li>
+												<li class="qb-red lot_sn_red"><input value="4" readonly=""></li>
+												<li class="qb-red lot_sn_red"><input value="8" readonly=""></li>
+												<li class="qb-red lot_sn_red"><input value="7" readonly=""></li>
+											</ul>
 										</div>
 										<div class="qb-tz-box clearfix">
 											<div class="fl bei-box clearfix">
@@ -1158,6 +1165,18 @@ $("#_leftAD [name=close_btn],#_rightAD [name=close_btn]").click(function(){
                     for( var i = 0;i<numList.length;i++ ){
                         s += "<li class=\"qb-red lot_sn_red\"><input value=\""+numList[i]+"\" readonly></li>"
                     }
+			}else if($(this).attr("data-gameid")==42){
+				var numList = [];
+				for (var i = 0; i <= 4; i++) {
+					var num = parseInt(Math.random(10) * 11 + 1);
+					while ($.inArray(num, numList) != -1) {
+						num = parseInt(Math.random(10) * 11 + 1);
+					}
+					numList.push(num);
+				}
+				for( var i = 0;i<numList.length;i++ ){
+					s += "<li class=\"qb-red lot_sn_red\"><input value=\""+numList[i]+"\" readonly></li>"
+				}
 			}else if($(this).attr("data-gameid")==12){ //十一选五
 			$("span[name=issue]").text("随机一注");
 			//$("a[name=doBet]").attr("onclick","__openWin('user_center','index.php/index/game/7/10/山东11选5');");
