@@ -1,7 +1,7 @@
 <div id="siderbar">
 <ul class="list clearfix">
 <li ><a href="/index.php/safe/tuiguang" >我的推广</a></li>
-<li ><a href="/index.php/cash/recharge" >在线充值</a></li>
+<li ><a href="/index.php/cash/recharge2" >在线充值</a></li>
 <li ><a href="/index.php/safe/info" >绑定卡号</a></li>
 <li ><a href="/index.php/safe/passwd" >密码修改</a></li>
 <li ><a href="/index.php/record/search" >投注记录</a></li>
@@ -16,8 +16,8 @@
 <script>
 var siderbar = {
 	'/index.php/safe/tuiguang':0,
-	'/index.php/cash/recharge':1,
-	'/index.php/safe/info':2,
+	'/index.php/cash/recharge':2,
+	'/index.php/safe/info':1,
 	'/index.php/safe/passwd':3,
 	'/index.php/record/search':4,
 	'/index.php/report/coin':5,

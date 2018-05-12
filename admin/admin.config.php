@@ -3,9 +3,10 @@ require_once('blast_sqlin.php');
 $conf['debug']['level']=5;
 
 /*		 ˝æ›ø‚≈‰÷√		*/
-$conf['db']['dsn']='mysql:host=127.0.0.1;dbname=nxc1';
+$conf['db']['dsn']='mysql:host=127.0.0.1;dbname=nxc1;port=3307';
 $conf['db']['user']='root';
-$conf['db']['password']='3020x63032979';
+// $conf['db']['password']='3020x63032979';
+$conf['db']['password']='';
 $conf['db']['charset']='utf8';
 $conf['db']['prename']='blast_';
 

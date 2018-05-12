@@ -71,10 +71,10 @@
             <div class="play-wrap">
                 <div class="deposit-info subContent_bet_re" style="width: 1046px;margin-left: 0;">
                     <div class="pay-top_1 clearfix" style="text-align: left;width: 875px;text-indent: 21px;">
-                        <a class="current" href="/index.php/cash/recharge" >支付宝支付</a>
+                        <!-- <a class="current" href="/index.php/cash/recharge" >支付宝支付</a> -->
 						<a class="" href="/index.php/cash/recharge2" >微信支付</a>
-                        <a class="" href="/index.php/cash/recharge3" >QQ钱包</a>
-                        <a class="" href="/index.php/cash/recharge4" >银行入款</a>
+                        <!-- <a class="" href="/index.php/cash/recharge3" >QQ钱包</a> -->
+                        <!-- <a class="" href="/index.php/cash/recharge4" >银行入款</a> -->
                         
                     </div>
 <body>

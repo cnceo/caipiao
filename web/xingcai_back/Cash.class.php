@@ -259,7 +259,6 @@ class Cash extends WebLoginBase{
 	
 	/* 进入充值，生产充值订单 */
 	public final function inRecharge(){
-
 		if(!$_POST) throw new Exception('参数出错');
 		$para['mBankId']=intval($_POST['mBankId']);
 		$para['amount']=floatval($_POST['amount']);
@@ -287,7 +286,7 @@ class Cash extends WebLoginBase{
 			$para['actionIP']=$this->ip(true);
 			$para['info']='用户充值';
 			$para['bankId']=$id;
-			
+			// var_dump($para);exit;
 			if($this->insertRow($this->prename .'member_recharge', $para)){
 				$this->display('cash/recharge-copy.php',0,$para);
 			}else{

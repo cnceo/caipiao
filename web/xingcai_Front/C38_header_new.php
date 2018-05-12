@@ -5,7 +5,7 @@
     <meta name="referrer" content="unsafe-url">
     <meta name="renderer" content="webkit">
 
-    <title>福彩168</title>
+    <title>恒鑫</title>
 
     <link type="text/css" rel="stylesheet" href="/files/_home.css">
     <link type="text/css" rel="stylesheet" href="/files/_tip.css">

@@ -71,10 +71,10 @@
             <div class="play-wrap">
                 <div class="deposit-info subContent_bet_re" style="width: 1046px;margin-left: 0;">
                     <div class="pay-top_1 clearfix" style="text-align: left;width: 875px;text-indent: 21px;">
-                        <a class="" href="/index.php/cash/recharge" >支付宝支付</a>
-						<a class="current" href="/index.php/cash/recharge2" >微信支付</a>
-                        <a class="" href="/index.php/cash/recharge3" >QQ钱包</a>
-                        <a class="" href="/index.php/cash/recharge4" >银行入款</a>
+                        <!-- <a class="" href="/index.php/cash/recharge" >支付宝支付</a> -->
+						<a class="current" href="/index.php/cash/recharge2" >金额支付</a>
+                        <!-- <a class="" href="/index.php/cash/recharge3" >QQ钱包</a> -->
+                        <!-- <a class="" href="/index.php/cash/recharge4" >银行入款</a> -->
                         
                     </div>
 <body>
@@ -105,9 +105,15 @@
 				  <form action="/index.php/cash/inRecharge" method="post" target="ajax" onajax="checkRecharge" call="toCash" dataType="html">
                                 
             <table width="100%" border="0" cellspacing="0" cellpadding="0" class="formTable">
-              <tbody><tr>
-                                
-                 </tr>
+              <tbody>
+                <tr>
+<!--                   <td align="right">支付方式：</td>
+                  <td>
+                   <input type="radio" name="payway" value="101"> <span>：微信</span>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <input type="radio" name="payway" value="102"><span>：支付宝</span>
+                 </td> -->
+               </tr>
                 <tr>
                 <td align="right">充值金额：</td>
                 <td><input type="text" name="amount" min="<?=$set['rechargeMin']?>" max="<?=$set['rechargeMax']?>" min1="<?=$set['rechargeMin1']?>" max1="<?=$set['rechargeMax1']?>" value="" id="ContentPlaceHolder1_txtMoney" onkeyup="showPaymentFee();" class="forminputT6"/>
@@ -146,6 +152,7 @@
 							$bnm = $bank['name'];
 					} ?>
                        <label><input type="radio" class="xuan" name="mBankId" cname="<?=$bank['name'] ?>" value="<?=$bank['id']?>" <?=$this->iff($idx==0, 'checked', '') ?> data-bank='<?=json_encode($bank)?>'/><img src="/<?=$bank['logo']?>" alt="" style="height:2.74rem;"/></label>
+
 					
                        <?php 
 								$idx++;}
@@ -163,7 +170,7 @@
        
         </form>
 </div>
-<div><a class="pay-online-btn" target="_blank" href="http://api.pop800.com/chat/263818"><i></i>联系在线客服</a></div>
+<!-- <div><a class="pay-online-btn" target="_blank" href="http://api.pop800.com/chat/263818"><i></i>联系在线客服</a></div> -->
 	                </div>
 	<?php }else{?>
 		<div class="container" style=" width: auto">
