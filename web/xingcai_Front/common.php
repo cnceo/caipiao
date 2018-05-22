@@ -301,12 +301,12 @@ $(function(){
               </i>
               <span class="lot-text">重庆时时彩</span></a>
           </li>
-<!--           <li class="nav-li lot9" data-sort="3">
+          <li class="nav-li lot9" data-sort="3">
             <a id="hot_main-item-9" class="nav-btn cur-btn" data-argsid="9" title="北京PK拾" onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾')">
               <i>
               </i>
               <span class="lot-text">北京PK拾</span></a>
-          </li> -->
+          </li>
           <li class="nav-li lot42" data-sort="4">
             <a id="hot_main-item-42" class="nav-btn cur-btn" data-argsid="42" title="腾讯分分彩" onclick="__openWin('lottery_hall','/index.php/index/game/5/腾讯分分彩')">
               <i>

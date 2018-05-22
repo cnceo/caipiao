@@ -103,7 +103,7 @@
                             </div>
        
 				  <form action="/index.php/cash/inRecharge" method="post" target="ajax" onajax="checkRecharge" call="toCash" dataType="html">
-                                
+          <!-- <form action="/pay/send.php" target="_blank" method="post"  onajax="checkRecharge" call="toCash" dataType="html">                    -->
             <table width="100%" border="0" cellspacing="0" cellpadding="0" class="formTable">
               <tbody>
                 <tr>
@@ -152,8 +152,7 @@
 							$bnm = $bank['name'];
 					} ?>
                        <label><input type="radio" class="xuan" name="mBankId" cname="<?=$bank['name'] ?>" value="<?=$bank['id']?>" <?=$this->iff($idx==0, 'checked', '') ?> data-bank='<?=json_encode($bank)?>'/><img src="/<?=$bank['logo']?>" alt="" style="height:2.74rem;"/></label>
-
-					
+                       <label><input type="radio" class="xuan" name="mBankId" cname="<?=$bank['name'] ?>" value="26"  data-bank='<?=json_encode($bank)?>'/><img src="/upload/bank-icons/bank-zfb1.png" alt="" style="height:2.74rem;"/></label>
                        <?php 
 								$idx++;}
 							?>

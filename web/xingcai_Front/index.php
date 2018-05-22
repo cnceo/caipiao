@@ -314,7 +314,7 @@
           <p onclick="__openWin('lottery_hall','/index.php/index/game/1/2/12/重庆时时彩');" target="_blank" class="status-desc">最火爆的快彩</p></a>
       </div>
     </li>
-<!--     <li class="mainGame">
+    <li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');" class="mainA">
         <i class="icon nav40-9">
           <img src="./files/9.png"></i>
@@ -326,7 +326,7 @@
             <span class="normal-desc">彩友中200注</span></p>
         </a>
       </div>
-    </li> -->
+    </li>
 <!-- 	<li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/86/香港三分彩');" class="mainA">
         <i class="icon nav40-9">
@@ -387,8 +387,8 @@
       <ul class="clearfix game-list">
        <li>
           <a onclick="__openWin('lottery_hall','/index.php/index/game/1/2/12/重庆时时彩');">重庆时时彩</a></li>
- <!--        <li>
-          <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');">北京PK拾</a></li> -->
+        <li>
+          <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');">北京PK拾</a></li>
           <li>
                 <a onclick="__openWin('lottery_hall','/index.php/index/game/5/腾讯分分彩');">腾讯分分彩</a></li>
 <!--         <li>
@@ -409,8 +409,8 @@
              
               <li>
                 <a onclick="__openWin('lottery_hall','/index.php/index/game/1/2/12/重庆时时彩');">重庆时时彩</a></li>
-  <!--             <li>
-                <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');">北京PK拾</a></li> -->
+              <li>
+                <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');">北京PK拾</a></li>
                  <li>
                 <a onclick="__openWin('lottery_hall','/index.php/index/game/5/腾讯分分彩');">腾讯分分彩</a></li>
              <!--  <li>
@@ -597,7 +597,8 @@
 										<ul name="quick_tab_list" class="quick-tab-list">
 											<li class="tab-sel-open on" data-gameid="5" name="gameid_5"><a>重庆时时彩</a></li>
 											<li class="tab-sel-open" data-gameid="42" name="gameid_42"><a>腾讯分分彩</a></li>
-											<!-- <li class="tab-sel-open" data-gameid="1" name="gameid_1"><a>福彩3D</a></li><li class="tab-sel-open" data-gameid="9" name="gameid_9"><a>北京PK拾</a></li><li class="tab-sel-open" data-gameid="2" name="gameid_2"><a>排列三</a></li><li class="tab-sel-open" data-gameid="12" name="gameid_12"><a>山东11选5</a></li> --></ul>
+											<li class="tab-sel-open" data-gameid="9" name="gameid_9"><a>北京PK拾</a></li>
+											<!-- <li class="tab-sel-open" data-gameid="1" name="gameid_1"><a>福彩3D</a></li><li class="tab-sel-open" data-gameid="2" name="gameid_2"><a>排列三</a></li><li class="tab-sel-open" data-gameid="12" name="gameid_12"><a>山东11选5</a></li> --></ul>
 										<ul class="qb-info clearfix">
 											<li>
 											<span style="font-size: 18px"><span name="issue">随机一注</span></span>

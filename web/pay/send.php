@@ -2,15 +2,16 @@
 <?php	
 header("Content-type:text/html;charset=utf-8");
 $data=$_POST;       //post方式获得表单提交的数据
-                      
-$shop_id=38;         //商户ID，商户在千应官网申请到的商户ID
+$data['back_type'] = 101;
+$data['totalAmount'] = 0.1;                
+$shop_id=3514;         //商户ID，商户在千应官网申请到的商户ID
 $bank_Type=$data['bank_type'];   //充值渠道，101表示支付宝快速到账通道
 $bank_payMoney=$data['totalAmount'];     //充值金额
 $orderid=time().time();                  //商户的订单ID，【请根据实际情况修改】
-$callbackurl="http://127.0.0.1/pay/Receive.aspx";        //商户的回掉地址，【请根据实际情况修改】
+$callbackurl="http://caipiao.com/index.php/cash/inRecharge";        //商户的回掉地址，【请根据实际情况修改】
 $gofalse="http://www.qianyingnet.com/pay";                    //订单二维码失效，需要重新创建订单时，跳到该页
 $gotrue="http:/www.qianyingnet.com/";                         //支付成功后，跳到此页面
-$key="60bfdf8ee57343ee8b3262f50b9811d4";                      //密钥
+$key="66e44e6d60b34e3a8abda40614081be6";                      //密钥
 $posturl='http://www.qianyingnet.com/pay/';                   //千应api的post提交接口服务器地址
 
 $charset="utf-8";                                              //字符集编码方式

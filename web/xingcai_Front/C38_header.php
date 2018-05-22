@@ -221,7 +221,7 @@
         </a>
       </div>
     </li>
-<!--     <li class="mainGame">
+    <li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/20/27/北京PK拾');" class="mainA">
         <i class="icon nav40-9">
           <img src="/files/9.png"></i>
@@ -233,7 +233,7 @@
             <span class="normal-desc">彩友中200注</span></p>
         </a>
       </div>
-    </li> -->
+    </li>
 <!--     <li class="mainGame">
       <a onclick="__openWin('lottery_hall','/index.php/index/game/80/104/339/幸运28');" class="mainA">
         <i class="icon nav40-9">
