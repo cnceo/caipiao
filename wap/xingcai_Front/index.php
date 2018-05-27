@@ -201,9 +201,9 @@
                     <span class="header-tit"></span>
                 </div>
             </div>
-            <div class=" header-icon">
+<!--             <div class=" header-icon">
                 <a class="header-head" href="/index.php/user/regs"></a>
-            </div>
+            </div> -->
 
          <?}?>
            	
@@ -212,9 +212,9 @@
     <div id="wrapper_1" class="scorllmain-content top_bar bottom_bar">
         <div class="sub_ScorllCont">
             <div class="header-banner" style="height: 160px; overflow: hidden;">
-                <a href="/index.php/index/activity"><img class="banner" style="width: 100%;height:157px; display: block;" src="/images/img1.jpg"></a>
-                <a href="/index.php/index/activity"><img class="banner" style="width: 100%;height:157px; display: none;" src="/images/img2.jpg"></a>
-                <a href="/index.php/index/activity"><img class="banner" style="width: 100%;height:157px; display: none;" src="/images/img3.jpg"></a>
+                <!-- <a href="/index.php/index/activity"><img class="banner" style="width: 100%;height:157px; display: block;" src="/images/img1.jpg"></a> -->
+                <a href="/index.php/index/activity"><img class="banner" style="width: 100%;height:157px; display: block;" src="/images/img2.jpg"></a>
+                <!-- <a href="/index.php/index/activity"><img class="banner" style="width: 100%;height:157px; display: none;" src="/images/img3.jpg"></a> -->
                 <a href="/index.php/index/activity"><img class="banner" style="width: 100%;height:157px; display: none;" src="/images/img4.jpg"></a>
             </div>
             <div class="bulletin" onclick="location.href='/index.php/notice/info';">
@@ -237,10 +237,12 @@
                         <a href="/index.php/record/search"><img src="assets/statics/images/index_goucai.png"></a>
                     </li>
                     <li>
-                        <a href="/index.php/index/activity"><img src="assets/statics/images/index_youhui.png"></a>
+                        <!-- <a href="/index.php/index/activity"><img src="assets/statics/images/index_youhui.png"></a> -->
+                        <a href="#"><img src="assets/statics/images/index_youhui.png"></a>
                     </li>
                     <li>
-                        <a href="/index.php/box/receive" style="color: rgb(255, 255, 255);line-height: 45px;"><img src="assets/statics/images/index_kefu.png"></a>
+                        <!-- <a href="/index.php/box/receive" style="color: rgb(255, 255, 255);line-height: 45px;"><img src="assets/statics/images/index_kefu.png"></a> -->
+                        <a href="#" style="color: rgb(255, 255, 255);line-height: 45px;"><img src="assets/statics/images/index_kefu.png"></a>
                     </li>
                 </ul>
             </div>
@@ -257,6 +259,13 @@
                             <p class="hot-text text_idx_0">重庆时时彩</p>
                         </a>
                     </li>
+
+                    <li>
+                        <a href="/index.php/index/game/5">
+                            <div class="hot-icon icon_idx_0"><img class="" src="assets/statics/images/icon/5tt.png"></div>
+                            <p class="hot-text text_idx_0">腾讯分分彩</p>
+                        </a>
+                    </li>
                     
                     <li>
                         <a href="/index.php/index/game/20">
@@ -265,49 +274,48 @@
                         </a>
                     </li>
 					<li>
-                        <a href="/index.php/index/game/85">
+                        <!-- <a href="/index.php/index/game/85"> -->
+                        <a data-href="#">
                             <div class="hot-icon icon_idx_0"><img class="" src="assets/statics/images/icon/3fpk.png"></div>
                             <p class="hot-text text_idx_0">三分PK10</p>
                         </a>
                     </li>
                     
-                    
-                    
                     <li>
-                        <a href="/index.php/index/game/34">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/34"> -->
                             <div class="hot-icon icon_idx_0"><img class="" src="assets/statics/images/icon/18.png"></div>
                             <p class="hot-text text_idx_0">香港⑥合彩</p>
                         </a>
                     </li>
                     
-                    <li>
-                        <a href="/index.php/index/game/5">
-                            <div class="hot-icon icon_idx_0"><img class="" src="assets/statics/images/icon/5tt.png"></div>
-                            <p class="hot-text text_idx_0">腾讯分分彩</p>
-                        </a>
-                    </li>
+
                    
                     <li>
-                        <a href="/index.php/index/game/86">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/86"> -->
                             <div class="hot-icon icon_idx_0"><img class="" src="assets/statics/images/icon/3fssc.png"></div>
                             <p class="hot-text text_idx_0">香港三分彩</p>
                         </a>
                     </li>
                     <li>
-                        <a href="/index.php/index/game/14">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/14"> -->
                             <div class="hot-icon icon_idx_0"><img class="" src="assets/statics/images/icon/5.png"></div>
                             <p class="hot-text text_idx_0">河内5分彩</p>
                         </a>
                     </li>
                    <li>
-                        <a href="/index.php/index/game/80">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/80"> -->
                             <div class="hot-icon icon_idx_0"><img class="" src="assets/statics/images/icon/xy28.png"></div>
                             <p class="hot-text text_idx_0">幸运28</p>
                         </a>
                     </li>
                     
                     <li>
-                        <a href="/index.php/index/hall">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/hall"> -->
                             <div class="hot-icon"><img src="assets/statics/images/icon/logo_more.png"></div>
                             <p class="hot-text">更多彩种</p>
                         </a>

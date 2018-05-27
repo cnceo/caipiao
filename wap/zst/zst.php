@@ -146,15 +146,15 @@ $typeid = intval($_REQUEST['typeid']);
     <ul>
       
         <li class="game_li_1 <?php if($typeid == 1){echo 'trend-on';}?>" data-gid="1" data-enable="0">重庆时时彩</li>
-        <li class="game_li_12 <?php if($typeid == 12){echo 'trend-on';}?>" data-gid="12" data-enable="0">新疆时时彩</li>
-        <li class="game_li_60 <?php if($typeid == 60){echo 'trend-on';}?>" data-gid="60" data-enable="0">天津时时彩</li>
+        <!-- <li class="game_li_12 <?php if($typeid == 12){echo 'trend-on';}?>" data-gid="12" data-enable="0">新疆时时彩</li> -->
+        <!-- <li class="game_li_60 <?php if($typeid == 60){echo 'trend-on';}?>" data-gid="60" data-enable="0">天津时时彩</li> -->
        <li class="game_li_5 <?php if($typeid == 5){echo 'trend-on';}?>" data-gid="5" data-enable="0">腾讯分分彩</li>
         
 
         <li class="game_li_20 <?php if($typeid == 20){echo 'trend-on';}?>" data-gid="20" data-enable="0">北京PK拾</li>
        
 
-        <li class="game_li_6 <?php if($typeid == 6){echo 'trend-on';}?>" data-gid="6" data-enable="0">广东11选5</li>
+<!--         <li class="game_li_6 <?php if($typeid == 6){echo 'trend-on';}?>" data-gid="6" data-enable="0">广东11选5</li>
         <li class="game_li_7 <?php if($typeid == 7){echo 'trend-on';}?>" data-gid="7" data-enable="0">山东11选5</li>
         <li class="game_li_15 <?php if($typeid == 15){echo 'trend-on';}?>" data-gid="15" data-enable="0">上海11选5</li>
         <li class="game_li_16 <?php if($typeid == 16){echo 'trend-on';}?>" data-gid="16" data-enable="0">江西11选5</li>
@@ -166,7 +166,7 @@ $typeid = intval($_REQUEST['typeid']);
         <li class="game_li_9 <?php if($typeid == 9){echo 'trend-on';}?>" data-gid="9" data-enable="0">福彩3D</li>
         <li class="game_li_10 <?php if($typeid == 10){echo 'trend-on';}?>" data-gid="10" data-enable="0">排列三</li>
         <li class="game_li_34 <?php if($typeid == 34){echo 'trend-on';}?>" data-gid="34" data-enable="0">香港六合彩</li>
-          <li class="game_li_77 <?php if($typeid == 77){echo 'trend-on';}?>" data-gid="77" data-enable="0">高速六合彩</li>
+          <li class="game_li_77 <?php if($typeid == 77){echo 'trend-on';}?>" data-gid="77" data-enable="0">高速六合彩</li> -->
     </ul>
 </div>
 <!--<div class="tips-bg" hidden=""></div>-->

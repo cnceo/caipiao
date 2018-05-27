@@ -73,7 +73,7 @@
                      <a href="javascript:void(0);" style="color: rgb(255, 255, 255);line-height: 45px;"><i class="icon-iphone-icon"></i> 手机购彩APP</a>
                       <?  } ?>
 	                    <li>
-	                        <a href="<?=$this->settings['kefuGG']?>" style="color: rgb(255, 255, 255);line-height: 45px;"><i class="icon-4"></i> 在线客服</a>
+	                        <!-- <a href="<?=$this->settings['kefuGG']?>" style="color: rgb(255, 255, 255);line-height: 45px;"><i class="icon-4"></i> 在线客服</a> -->
 	                    </li>
                 	</ul>
 	            </div>

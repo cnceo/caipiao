@@ -6,7 +6,7 @@
     <meta name=format-detection content="telphone=no" />
     <meta name=apple-mobile-web-app-capable content=yes />
     
-    <title>福彩168</title>
+    <title>恒鑫</title>
     
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="uploadimg/wapicon/icon-57.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="uploadimg/wapicon/icon-72.png">
@@ -56,7 +56,7 @@
         	<a class="fr" href="/index.php/user/forget" id="forgetPwd">忘记密码</a>
         </div>
         <button class="login-btn" id="login_btn">登录</button>
-        <button class="reg-btn" id="register">立即注册</button>
+        <!-- <button class="reg-btn" id="register">立即注册</button> -->
         
     </div>
     

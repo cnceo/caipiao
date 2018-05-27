@@ -163,8 +163,11 @@
 	                            }
 	                            numHtml += tmpHtml + '</div>';
 	                        }
-	
-	                        txtHtml += '<li class="list-k3">' + '<a href="javascript:;" data-gid="' + data[i].type+ '">' + '<div class="lott-list-tit">' + '<span style="color:#c91b1c;">' + data[i].title + '</span><span style="font-size: 11px;">第' + data[i].number + '期 ' +getLocalTime(data[i].time) + '</span>' + '</div>' + numHtml + '</a>' + '</li>';
+							
+							if (data[i].type == 5 || data[i].type == 20 || data[i].type == 1) {
+								txtHtml += '<li class="list-k3">' + '<a href="javascript:;" data-gid="' + data[i].type+ '">' + '<div class="lott-list-tit">' + '<span style="color:#c91b1c;">' + data[i].title + '</span><span style="font-size: 11px;">第' + data[i].number + '期 ' +getLocalTime(data[i].time) + '</span>' + '</div>' + numHtml + '</a>' + '</li>';
+							}
+	                        // txtHtml += '<li class="list-k3">' + '<a href="javascript:;" data-gid="' + data[i].type+ '">' + '<div class="lott-list-tit">' + '<span style="color:#c91b1c;">' + data[i].title + '</span><span style="font-size: 11px;">第' + data[i].number + '期 ' +getLocalTime(data[i].time) + '</span>' + '</div>' + numHtml + '</a>' + '</li>';
 	                    }
 	                    $('ul#draw_list').html(txtHtml);
 	                }

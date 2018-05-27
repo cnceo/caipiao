@@ -37,10 +37,10 @@
                 <button id="reveal-left2" onclick="location.href='/'">reveal</button>
             </div>
             <h1 class="ui-toolbar-title">购彩大厅</h1>
-            <div class="ui-toolbar-right ui-head">
+<!--             <div class="ui-toolbar-right ui-head">
                 <a class="head-list" href="javascript:;"></a>
                 <a class="head-icon" href="javascript:;"></a>
-            </div>
+            </div> -->
         </div>
     </div>
     
@@ -58,7 +58,8 @@
             <li class="nav_category_1 nav_sel_1" data-cat="1" style="display:none;">
                 <a href="javascript:;"><img src="assets/statics/images/lottery/goucai_navs_03.png"></a>
             </li>
-            <li class="nav_category_2" data-cat="2">
+            <li>
+            <!-- <li class="nav_category_2" data-cat="2"> -->
                 <a href="javascript:;"><img src="assets/statics/images/lottery/goucai_nav_04.png"></a>
             </li>
             <li class="nav_category_2 nav_sel_2" data-cat="2" style="display:none;">
@@ -71,9 +72,7 @@
         <div class="sub_ScorllCont">
             <div class="lottery-list" hidden="">
                 <ul>
-                	
-                	
-                    
+
                 	<li class="game_category_1">
                         <a href="/index.php/index/game/1/2/12">
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/5.png"></div>
@@ -274,7 +273,8 @@
                     </li>
                     
                 	<li class="game_category_2">
-                        <a href="/index.php/index/game/34">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/34"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/18.png"></div>
                             <div class="erect-right erect-right-34" data-gid="34" data-time="">
                                 <div><span class="fr red last_period_34"></span>
@@ -290,7 +290,8 @@
                     </li>
                       
                 	<li class="game_category_1">
-                        <a href="/index.php/index/game/77">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/77"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/77.png"></div>
                             <div class="erect-right erect-right-77" data-gid="77" data-time="">
                                 <div><span class="fr red last_period_77"></span>
@@ -324,7 +325,8 @@
                     -->
 					
                 	<li class="game_category_1">
-                        <a href="/index.php/index/game/79">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/79"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/27.png"></div>
                             <div class="erect-right erect-right-79" data-gid="79" data-time="">
                                 <div><span class="fr red last_period_79"></span>
@@ -358,7 +360,8 @@
                 	
                     
                 	<li class="game_category_1">
-                        <a href="/index.php/index/game/60">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/60"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/4.png"></div>
                             <div class="erect-right erect-right-60" data-gid="60" data-time="">
                                 <div><span class="fr red last_period_60"></span>
@@ -374,7 +377,8 @@
                     </li>
                     
                 	<li class="game_category_1">
-                        <a href="/index.php/index/game/12">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/12"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/7.png"></div>
                             <div class="erect-right erect-right-12" data-gid="12" data-time="">
                                 <div><span class="fr red last_period_12"></span>
@@ -392,7 +396,8 @@
                 
                    
                 	<li class="game_category_1">
-                        <a href="/index.php/index/game/81">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/81"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/10.png"></div>
                             <div class="erect-right erect-right-10" data-gid="10" data-time="">
                                 <div><span class="fr red last_period_10"></span>
@@ -410,7 +415,8 @@
                 	
                     
                 	<li class="game_category_1">
-                        <a href="/index.php/index/game/7">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/7"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/7.png"></div>
                             <div class="erect-right erect-right-7" data-gid="7" data-time="">
                                 <div><span class="fr red last_period_7"></span>
@@ -426,7 +432,8 @@
                     </li>
                     
                 	<li class="game_category_1">
-                        <a href="/index.php/index/game/15">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/15"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/13.png"></div>
                             <div class="erect-right erect-right-15" data-gid="15" data-time="">
                                 <div><span class="fr red last_period_15"></span>
@@ -442,7 +449,8 @@
                     </li>
                     
                 	<li class="game_category_1">
-                        <a href="/index.php/index/game/16">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/16"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/14.png"></div>
                             <div class="erect-right erect-right-16" data-gid="16" data-time="">
                                 <div><span class="fr red last_period_16"></span>
@@ -458,7 +466,8 @@
                     </li>
                     
                 	<li class="game_category_1">
-                        <a href="/index.php/index/game/6">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/6"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/15.png"></div>
                             <div class="erect-right erect-right-6" data-gid="6" data-time="">
                                 <div><span class="fr red last_period_6"></span>
@@ -490,7 +499,8 @@
                     </li>
                     -->
                 	<li class="game_category_2">
-                        <a href="/index.php/index/game/9">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/9"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/1.png"></div>
                             <div class="erect-right erect-right-9" data-gid="9" data-time="">
                                 <div><span class="fr red last_period_9"></span>
@@ -506,7 +516,8 @@
                     </li>
                     
                 	<li class="game_category_2">
-                        <a href="/index.php/index/game/10">
+                        <a data-href="#">
+                        <!-- <a href="/index.php/index/game/10"> -->
                             <div class="hot-icon"><img class="" src="assets/statics/images/icon/2.png"></div>
                             <div class="erect-right erect-right-10" data-gid="10" data-time="">
                                 <div><span class="fr red last_period_10"></span>
